@@ -1,0 +1,10 @@
+{
+    "dev": {
+    	"host": "localhost",
+    	"user": "root",
+    	"password" : "",
+    	"database": "cryptochat",
+    	"driver": "mysql",
+    	"multipleStatements": true
+  }
+}

@@ -1,0 +1,22 @@
+#YAML Config file
+#Pay attention to line indentation and breaks
+app:
+  db:
+    host: localhost
+    database: cryptochat
+    username: root
+    password: ""
+  auth:
+    minUsernameLength: 4
+    maxUsernameLength: 12
+    minPasswordLength: 4
+    maxPasswordLength: 10
+    encryption:
+      method: sha1 
+  log:
+    console:
+      enabled: true
+    file:
+      enabled: true
+      filename: log/log.txt
+      maxKb: 64
